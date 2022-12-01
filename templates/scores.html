@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link rel="stylesheet" href="../static/styles/index.css" />
+    <link rel="stylesheet" href="../static/styles/scores.css" />
+</head>
+<body>
+<nav>
+        <div class="topnav">
+            <a href="/">Return Home</a>
+</div>
+      </nav>
+<h1>The Melee Name Game</h1>
+<h2>Leaderboards</h2>
+<ol>
+ {% for score in scorelist %}
+        <li>{{ score }}</li>
+ {% endfor %}
+</ol>
+</body>
+</html>

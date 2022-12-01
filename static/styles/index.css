@@ -1,0 +1,54 @@
+
+form{
+    text-align: center;
+}
+
+h1{
+    font-family: "itc g";
+    padding-bottom: 100px;
+}
+
+*{
+    text-align: center;
+}
+
+form{
+    font-size: xx-large;
+}
+
+select{
+    font-size: x-large;
+}
+
+input{
+    font-size: x-large;
+}
+
+h2{
+    font-family: "itc g";
+    text-align: center;
+    font-size: xx-large;
+}
+
+button{
+    font-family: "itc g";
+    text-align: center;
+    font-size: xx-large;
+}
+
+h5{
+    font-family: "itc g";
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.topnav a {
+    color: black;
+    float: right;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
